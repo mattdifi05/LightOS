@@ -1,0 +1,44 @@
+---
+title: Registry
+description: Light registry configuration
+privilege: TrustedInstaller
+actions: 
+  - !writeStatus: {status: "Tweaking registry"}
+features:
+  - features\light\registry\ntlite-settings.yml
+  - features\light\registry\add-take-ownership-in-context-menu.yml
+  - features\light\registry\bypass-requirements.yml
+  - features\light\registry\configure-crash-control.yml
+  - features\light\registry\configure-deprovisioned-apps.yml
+  - features\light\registry\configure-explorer-folder-view.yml
+  - features\light\registry\configure-explorer-settings.yml
+  - features\light\registry\configure-ifeo.yml
+  - features\light\registry\configure-internet-explorer.yml
+  - features\light\registry\configure-kernel.yml
+  - features\light\registry\configure-logon.yml
+  - features\light\registry\configure-microsoft-store.yml
+  - features\light\registry\configure-multimedia.yml
+  - features\light\registry\configure-oobe.yml
+  - features\light\registry\configure-power-control.yml
+  - features\light\registry\configure-privacy.yml
+  - features\light\registry\configure-search-and-cortana.yml
+  - features\light\registry\configure-security.yml
+  - features\light\registry\configure-start-menu-and-taskbar-notifications).yml
+  - features\light\registry\configure-win32priorityseparation.yml
+  - features\light\registry\configure-windows-settings.yml
+  - features\light\registry\configure-windows-update-and-install.yml
+  - features\light\registry\disable-disk-defragmentation.yml
+  - features\light\registry\disable-automatic-maintenance.yml
+  - features\light\registry\disable-disk-checking.yml
+  - features\light\registry\disable-ease-of-access-features.yml
+  - features\light\registry\disable-installing-teams.yml
+  - features\light\registry\disable-logging.yml
+  - features\light\registry\disable-prefetcher-superfetch-and-readyboost.yml
+  - features\light\registry\disable-system-restore-pre-defined-config.yml
+  - features\light\registry\disable-user-account-control-uac.yml
+  - features\light\registry\enable-audio-communications-do-nothing.yml
+  - features\light\registry\fixes.yml
+  - features\light\registry\make-msi-installer-work-in-safe-mode.yml
+  - features\light\registry\mouse-tweaks.yml
+  - features\light\registry\old-rightclick-menu.yml
+  - features\light\registry\restore-windows-photo-viewer-all-users.yml

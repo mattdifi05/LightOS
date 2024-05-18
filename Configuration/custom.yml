@@ -1,0 +1,16 @@
+---
+title: Custom
+description: Custom Light configuration
+privilege: Admin
+actions: []
+features:
+- features\light\start.yml
+- features\light\packages.yml
+- features\light\software.yml
+- features\light\services.yml
+- features\light\components.yml
+- features\light\appx.yml
+- features\light\registry.yml
+- features\light\revert.yml
+- features\light\config.yml
+- features\light\disable-scheduled-tasks.yml
